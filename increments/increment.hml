@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click your heart out!</title>
+</head>
+<body style="background-color: rgb(195, 173, 230)">
+    <div>
+        <button id="clicker-1" class="height">+1</button>
+        <button id="clicker-5" class="height">+5</button>
+        <button id="clicker-10" class="height">+10</button>
+    </div>
+    <h3 id="count">0</h3>
+    <script src="clicker.js"></script>
+</body>
 
+<style>
+.height {
+height: 70vh;
+width: 30vw;
+background-color: rgb(205, 161, 255);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+    
+</html>
